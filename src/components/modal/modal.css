@@ -1,0 +1,22 @@
+    .modal{
+        width: 370px;
+        height: 370px;
+        background-color: whitesmoke;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        flex-direction: column;
+        position: fixed;
+        left: calc(50% - 185px);
+        top: calc(50% - 185px);
+        color: black;
+        padding: 1rem;
+        border-radius: 15px;
+        text-align: center;
+        z-index: 10;
+    }
+
+    .active_link{
+        color: #0066ffff;
+    }
